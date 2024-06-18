@@ -22,7 +22,7 @@ const HomePage = () => {
         };
         loadVideos();
         console.log(videos)
-    }, [videos]);
+    }, []);
 
     useEffect(() => {
         if (selectedVideo) {
